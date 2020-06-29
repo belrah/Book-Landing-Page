@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html.body{
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans" sans-serif;
+
+}
+.navbar{
+    padding: .8rem;
+    background-color: white;  
+}
+
+nav img{
+    position: absolute;
+    top: 3px;
+    left: 12%;
+   
+}
+.navbar-nav li{
+   
+   
+}
+.nav link{
+  
+}
+h1 h2 h3{
+    font-style: 'Lora', serif;
+    text-shadow: black;
+}
+.padding{
+    padding-bottom: 0rem;
+}
+.container-fluid1 {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.container-fluid2{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+hr{
+    border-top: 0.5px solid #FD954E;
+    width: 50%;
+    text-align: center;
+    margin-top: .2rem;
+    margin-bottom: .9rem;
+}
+footer{
+    background-color: #750903;
+    color: white;
+    padding-top: 2rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---- media queries---*/
+
+@media (max-width: 992px){ 
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px){
+    footer{
+        width: 100%;
+    }
+}
+
+
+
+
+
+/*Extra small (xs) devices (portraite phones, less than 576px)
+no media query since this is the default in bootstrap
+small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px){}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px){}
+
+Large (lg) devices (desktopss, 992px and up)
+@media (min-width: 992px){}
+
+Extra (xl)  large devices (Large Desktops, 1200px and up)
+@media (min-width: 1200px){}
+*/
